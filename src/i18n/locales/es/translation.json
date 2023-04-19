@@ -289,6 +289,21 @@
           "placeholder": "frase de pila secreta de sats"
         }
       },
+      "hodlar": {
+        "title": "HODL.ar",
+        "page": {
+          "title": "Conectá con HODL.ar",
+          "instructions": "Conectá con tu cuenta de <0>Github</0>."
+        },
+        "github": {
+          "label": "Tu usuario de Github"
+        },
+        "errors": {
+          "create_wallet_error1": "Error al iniciar sesión o crear una cuenta nueva.",
+          "create_wallet_error2": "Si necesitas ayuda, ponete encontacto con support@hodl.ar",
+          "create_wallet_error": "Error al iniciar sesión o crear una cuenta nueva. Si necesitas ayuda, por favor contactate con support@hodl.ar"
+        }
+      },
       "title": "Conecta la Billetera Lightning"
     },
     "home": {
