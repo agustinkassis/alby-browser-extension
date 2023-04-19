@@ -2,6 +2,7 @@ import ConnectBtcpay from "@screens/connectors/ConnectBtcpay";
 import ConnectCitadel from "@screens/connectors/ConnectCitadel";
 import ConnectEclair from "@screens/connectors/ConnectEclair";
 import ConnectGaloy, { galoyUrls } from "@screens/connectors/ConnectGaloy";
+import ConnectHodlAr from "@screens/connectors/ConnectHodlAr";
 import ConnectKollider from "@screens/connectors/ConnectKollider";
 import ConnectLnbits from "@screens/connectors/ConnectLnbits";
 import ConnectLnc from "@screens/connectors/ConnectLnc";
@@ -20,6 +21,7 @@ import core_ln from "/static/assets/icons/core_ln.svg";
 import eclair from "/static/assets/icons/eclair.jpg";
 import galoyBitcoinBeach from "/static/assets/icons/galoy_bitcoin_beach.png";
 import galoyBitcoinJungle from "/static/assets/icons/galoy_bitcoin_jungle.png";
+import hodlar from "/static/assets/icons/hodlar.png";
 import kolliderLogo from "/static/assets/icons/kollider.png";
 import lnbits from "/static/assets/icons/lnbits.png";
 import lnd from "/static/assets/icons/lnd.png";
@@ -143,6 +145,12 @@ function getConnectorRoutes() {
       element: <ConnectBtcpay />,
       title: i18n.t("translation:choose_connector.btcpay.title"),
       logo: btcpay,
+    },
+    {
+      path: "hodlar",
+      element: <ConnectHodlAr />,
+      title: i18n.t("translation:choose_connector.hodlar.title"),
+      logo: hodlar,
     },
   ];
 }
